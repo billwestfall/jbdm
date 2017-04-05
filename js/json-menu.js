@@ -12,7 +12,7 @@ var builddata = function () {
         var url = item["url"];
 
         if (items[parentid]) {
-            var item = { parentid: parentid, label: label, url: url, item: item };
+            var item = { parentid: parentid, name: name, url: url, item: item };
             if (!items[parentid].items) {
                 items[parentid].items = [];
             }
@@ -21,7 +21,7 @@ var builddata = function () {
         }
         else {
             items[id] = { parentid: parentid, label: label, url: url, item: item };
-            source[id] = items[id];
+            source[id] = items[ids];
         }
     }
     return source;
@@ -55,4 +55,3 @@ if ($(".json-menu>li>ul.js-menu>li:has(> ul.js-menu)"))
 }
 $("ul.js-menu").find("li:not(:has(> ul.js-menu))").removeClass("dropdown-submenu");
 });
-
