@@ -11,7 +11,5 @@ there are errors in both the menu.json and json-menu.javascript.  once fixed, yo
 Cars - Toyota - Corolla - 2013
 
  Motorbikes - Honda
-
-           - Kawasaki
-           
-           - BMW 
+            - Kawasaki
+            - BMW 
