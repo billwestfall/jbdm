@@ -8,10 +8,10 @@ to host you can run a simple http server from the root of this dir, like
 
 there are errors in both the menu.json and json-menu.javascript.  once fixed, you should see a page with a dropdown in the following format:
 
-` Cars - Toyota - Corolla - 2013`
+Cars - Toyota - Corolla - 2013
 
-` Motorbikes - Honda `
+ Motorbikes - Honda
 
-           `- Kawasaki`
+           - Kawasaki
            
-           `- BMW `
+           - BMW 
